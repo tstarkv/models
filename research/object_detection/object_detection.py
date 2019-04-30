@@ -14,6 +14,7 @@ import six.moves.urllib as urllib
 import sys
 import tarfile
 
+print(os.getcwd())
 
 # In[ ]:
 
