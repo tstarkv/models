@@ -32,7 +32,7 @@ from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
-sys.path.append('/content/models/research/')
+sys.path.append(os.path.join('content','models','research'))
 print("Reached here")
 print(sys.path)
 from object_detection.utils import ops as utils_ops
