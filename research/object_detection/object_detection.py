@@ -31,7 +31,7 @@ from PIL import Image
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
-sys.path.append('models/research/object_detection')
+sys.path.append('./models/research/')
 from object_detection.utils import ops as utils_ops
 
 if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
